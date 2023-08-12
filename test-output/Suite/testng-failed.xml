@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Ninja.qa.Search">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="VerifySearchWithoutAnyProduct"/>
+          <include name="VerifySearchWithNonValidProject"/>
+        </methods>
+      </class> <!-- Ninja.qa.Search -->
+      <class name="Ninja.qa.Register">
+        <methods>
+          <include name="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress"/>
+          <include name="setup"/>
+          <include name="VerifyloggingintotheApplicatioWithouProvidingAnycredentials"/>
+          <include name="VerifyRegisteringAnAccountByProvidingAllFields"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Ninja.qa.Register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

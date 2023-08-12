@@ -1,0 +1,230 @@
+2023-08-12 08:48:46,698 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-12 08:50:23,936 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 08:52:02,050 [Worker-11: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project KTCTCFramworkProject already exists
+2023-08-12 08:52:05,277 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.0/maven-resources-plugin-3.3.0.jar
+2023-08-12 08:52:05,687 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.0/maven-resources-plugin-3.3.0.jar
+2023-08-12 08:52:06,051 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar
+2023-08-12 08:52:06,193 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar
+2023-08-12 08:52:06,345 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.jar
+2023-08-12 08:52:06,631 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.jar
+2023-08-12 08:52:06,898 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.jar
+2023-08-12 08:52:07,333 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.jar
+2023-08-12 08:52:08,265 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom
+2023-08-12 08:52:08,356 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom
+2023-08-12 08:52:08,435 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+2023-08-12 08:52:08,522 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+2023-08-12 08:52:08,748 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+2023-08-12 08:52:08,869 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+2023-08-12 08:52:09,477 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
+2023-08-12 08:52:09,554 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
+2023-08-12 08:52:09,612 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
+2023-08-12 08:52:09,700 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
+2023-08-12 08:52:09,750 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
+2023-08-12 08:52:09,862 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
+2023-08-12 08:52:09,933 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom
+2023-08-12 08:52:10,019 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom
+2023-08-12 08:52:10,137 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
+2023-08-12 08:52:10,241 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
+2023-08-12 08:52:10,379 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2023-08-12 08:52:10,454 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2023-08-12 08:52:10,506 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2023-08-12 08:52:10,620 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2023-08-12 08:52:10,687 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2023-08-12 08:52:10,829 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2023-08-12 08:52:10,893 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+2023-08-12 08:52:10,999 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+2023-08-12 08:52:11,083 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2023-08-12 08:52:11,340 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2023-08-12 08:52:11,424 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom
+2023-08-12 08:52:11,777 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom
+2023-08-12 08:52:11,850 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom
+2023-08-12 08:52:11,991 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom
+2023-08-12 08:52:12,051 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom
+2023-08-12 08:52:12,244 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom
+2023-08-12 08:52:12,442 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+2023-08-12 08:52:12,499 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+2023-08-12 08:52:12,499 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
+2023-08-12 08:52:12,499 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2023-08-12 08:52:13,132 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+2023-08-12 08:52:13,402 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+2023-08-12 08:52:13,752 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+2023-08-12 08:52:13,768 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2023-08-12 08:52:14,059 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+2023-08-12 08:52:14,211 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
+2023-08-12 08:52:14,238 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar
+2023-08-12 08:52:14,307 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar
+2023-08-12 08:52:14,368 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+2023-08-12 08:52:14,422 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+2023-08-12 08:52:14,454 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar
+2023-08-12 08:52:14,563 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar
+2023-08-12 08:52:15,944 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selnium:KTCTCFramworkProject:0.0.1-SNAPSHOT @ C:\Users\House Of Computer\eclipse-workspace\FramworkProject\pom.xml.
+2023-08-12 08:52:26,475 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ninja:MavenProject:0.0.1-SNAPSHOT @ C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\pom.xml.
+2023-08-12 08:52:29,060 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.0/maven-resources-plugin-3.3.0.pom
+2023-08-12 08:52:29,130 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.3.0/maven-resources-plugin-3.3.0.pom
+2023-08-12 08:52:29,271 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.pom
+2023-08-12 08:52:29,353 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.pom
+2023-08-12 08:52:29,400 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0/surefire-3.0.0.pom
+2023-08-12 08:52:29,519 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0/surefire-3.0.0.pom
+2023-08-12 08:52:29,642 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.pom
+2023-08-12 08:52:29,728 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.3.0/maven-jar-plugin-3.3.0.pom
+2023-08-12 08:52:29,925 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.pom
+2023-08-12 08:52:30,030 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.pom
+2023-08-12 08:52:30,113 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/36/maven-shared-components-36.pom
+2023-08-12 08:52:30,181 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/36/maven-shared-components-36.pom
+2023-08-12 08:52:30,361 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.pom
+2023-08-12 08:52:30,441 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.pom
+2023-08-12 08:52:30,532 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.pom
+2023-08-12 08:52:30,629 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.pom
+2023-08-12 08:52:30,678 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom
+2023-08-12 08:52:30,771 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom
+2023-08-12 08:52:30,819 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+2023-08-12 08:52:30,904 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+2023-08-12 08:52:30,967 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.pom
+2023-08-12 08:52:31,034 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.pom
+2023-08-12 08:52:31,098 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.pom
+2023-08-12 08:52:31,207 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.pom
+2023-08-12 08:52:31,258 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.pom
+2023-08-12 08:52:31,380 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.pom
+2023-08-12 08:52:31,548 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom
+2023-08-12 08:52:31,685 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom
+2023-08-12 08:52:31,772 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2023-08-12 08:52:31,853 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar
+2023-08-12 08:52:31,853 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+2023-08-12 08:52:31,853 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar
+2023-08-12 08:52:32,145 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar
+2023-08-12 08:52:32,368 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+2023-08-12 08:52:32,505 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+2023-08-12 08:52:32,531 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar
+2023-08-12 08:52:32,534 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar
+2023-08-12 08:52:32,536 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2023-08-12 08:52:32,730 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar
+2023-08-12 08:52:32,730 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar
+2023-08-12 08:52:32,761 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar
+2023-08-12 08:52:33,256 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar
+2023-08-12 08:52:33,388 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar
+2023-08-12 08:52:33,636 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+2023-08-12 08:52:39,989 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.pom
+2023-08-12 08:52:40,061 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.pom
+2023-08-12 08:52:40,308 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.jar
+2023-08-12 08:52:40,436 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.jar
+2023-08-12 08:52:40,599 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KTCTCFramworkProject/src/main/java
+2023-08-12 08:52:40,600 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /KTCTCFramworkProject/src/main/resources
+2023-08-12 08:52:40,603 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KTCTCFramworkProject/src/test/java
+2023-08-12 08:52:40,604 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /KTCTCFramworkProject/src/test/resources
+2023-08-12 08:52:43,434 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProject/src/main/java
+2023-08-12 08:52:43,435 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProject/src/main/resources
+2023-08-12 08:52:43,437 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProject/src/test/java
+2023-08-12 08:52:43,438 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProject/src/test/resources
+2023-08-12 08:52:43,617 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 44 sec
+2023-08-12 08:52:43,798 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-08-12 08:52:44,786 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ninja:MavenProject:0.0.1-SNAPSHOT @ C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\pom.xml.
+2023-08-12 08:52:46,097 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProject/src/main/java
+2023-08-12 08:52:46,098 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProject/src/main/resources
+2023-08-12 08:52:46,099 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProject/src/test/java
+2023-08-12 08:52:46,100 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProject/src/test/resources
+2023-08-12 08:52:46,510 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2023-08-12 08:52:46,514 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-08-12 08:52:46,963 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selnium:KTCTCFramworkProject:0.0.1-SNAPSHOT @ C:\Users\House Of Computer\eclipse-workspace\FramworkProject\pom.xml.
+2023-08-12 08:52:47,757 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KTCTCFramworkProject/src/main/java
+2023-08-12 08:52:47,758 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /KTCTCFramworkProject/src/main/resources
+2023-08-12 08:52:47,761 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KTCTCFramworkProject/src/test/java
+2023-08-12 08:52:47,761 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /KTCTCFramworkProject/src/test/resources
+2023-08-12 08:52:48,250 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-08-12 08:52:50,431 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 32 resources
+2023-08-12 08:52:51,432 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\FramworkProject\src\test\resources
+2023-08-12 08:52:52,454 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-12 08:52:52,455 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\src\main\resources
+2023-08-12 08:52:52,464 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-12 08:52:52,464 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\src\test\resources
+2023-08-12 08:57:19,375 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 09:13:43,620 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 09:15:59,115 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 09:21:45,652 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 09:41:19,112 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-12 09:43:00,587 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 32 resources
+2023-08-12 09:43:01,511 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\FramworkProject\src\test\resources
+2023-08-12 09:43:07,730 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-12 09:43:07,731 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\src\main\resources
+2023-08-12 09:43:07,739 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-12 09:43:07,740 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\House Of Computer\eclipse-workspace\YouTubeMavenProject\src\test\resources
+2023-08-12 09:45:47,595 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ActionClass2 references non-existing project Oct21Selenium.
+org.eclipse.core.runtime.CoreException: Launch configuration ActionClass2 references non-existing project Oct21Selenium.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1516)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2396)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2407)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard.lambda$0(BasicNewProjectResourceWizard.java:241)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-08-12 09:45:47,609 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration dfkdkfd references non-existing project Oct21Selenium.
+org.eclipse.core.runtime.CoreException: Launch configuration dfkdkfd references non-existing project Oct21Selenium.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1516)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2396)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2407)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard.lambda$0(BasicNewProjectResourceWizard.java:241)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-08-12 09:45:47,632 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration javast references non-existing project javaproject1.
+org.eclipse.core.runtime.CoreException: Launch configuration javast references non-existing project javaproject1.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1516)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2396)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2407)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard.lambda$0(BasicNewProjectResourceWizard.java:241)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

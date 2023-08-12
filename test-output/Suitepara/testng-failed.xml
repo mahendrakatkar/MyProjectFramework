@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suitepara]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Testpara(failed)">
+    <classes>
+      <class name="Ninja.qa.Search">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="VerifySearchValidProduct"/>
+          <include name="VerifySearchWithoutAnyProduct"/>
+          <include name="VerifySearchWithNonValidProject"/>
+        </methods>
+      </class> <!-- Ninja.qa.Search -->
+      <class name="Ninja.qa.Login">
+        <methods>
+          <include name="VerifyLoginWithINValidCreden"/>
+          <include name="VerifyLoginWithValidEmailAndINValidPassword"/>
+          <include name="BrowserCloseMethod"/>
+          <include name="VerifyLoginwithoutCredentials"/>
+          <include name="VerifyLoginWithINValidEmailAndValidPassword"/>
+          <include name="VerifyLoginWithValidCreden"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Ninja.qa.Login -->
+      <class name="Ninja.qa.Register">
+        <methods>
+          <include name="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress"/>
+          <include name="setup"/>
+          <include name="VerifyloggingintotheApplicatioWithouProvidingAnycredentials"/>
+          <include name="VerifyRegisteringAnAccountByProvidingAllFields"/>
+          <include name="VerifyRegisteringAnAccountshowsMandatoryFields"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Ninja.qa.Register -->
+    </classes>
+  </test> <!-- Testpara(failed) -->
+</suite> <!-- Failed suite [Suitepara] -->
