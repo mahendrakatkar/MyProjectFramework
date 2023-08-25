@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods,  3 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithINValidEmailAndValidPassword">VerifyLoginWithINValidEmailAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidEmailAndINValidPassword">VerifyLoginWithValidEmailAndINValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginwithoutCredentials">VerifyLoginwithoutCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +132,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithINValidEmailAndValidPassword">VerifyLoginWithINValidEmailAndValidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)">VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -118,22 +142,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)">VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCreden(mahendramkatkar1@gmail.com, Mahendra@678)">VerifyLoginWithValidCreden(mahendramkatkar1@gmail.com, Mahendra@678)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidEmailAndINValidPassword">VerifyLoginWithValidEmailAndINValidPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Ninja.qa.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginwithoutCredentials">VerifyLoginwithoutCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,6 +192,98 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Ninja.qa.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithINValidEmailAndValidPassword">
+                  </a> <!-- VerifyLoginWithINValidEmailAndValidPassword -->
+                  <span class="method-name">VerifyLoginWithINValidEmailAndValidPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 8.628
+  (Session info: chrome=116.0.5845.111)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc90e90d682c1945fa03fcba1da9c60b, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HOUSEO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59059/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc90e90d682c1945fa03fcba1da9c60b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:63)
+	at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidEmailAndINValidPassword">
+                  </a> <!-- VerifyLoginWithValidEmailAndINValidPassword -->
+                  <span class="method-name">VerifyLoginWithValidEmailAndINValidPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 8.628
+  (Session info: chrome=116.0.5845.111)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc90e90d682c1945fa03fcba1da9c60b, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HOUSEO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59059/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc90e90d682c1945fa03fcba1da9c60b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:63)
+	at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginwithoutCredentials">
+                  </a> <!-- VerifyLoginwithoutCredentials -->
+                  <span class="method-name">VerifyLoginwithoutCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 8.628
+  (Session info: chrome=116.0.5845.111)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc90e90d682c1945fa03fcba1da9c60b, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HOUSEO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59059/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc90e90d682c1945fa03fcba1da9c60b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:63)
+	at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -198,9 +299,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyLoginWithINValidEmailAndValidPassword">
-                  </a> <!-- VerifyLoginWithINValidEmailAndValidPassword -->
-                  <span class="method-name">VerifyLoginWithINValidEmailAndValidPassword</span>
+                  <a name="VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)">
+                  </a> <!-- VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678) -->
+                  <span class="method-name">VerifyLoginWithValidCreden</span>
+                  <span class="parameters">(mahendramkatkar@gmail.com,Mahendra@678)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -213,32 +315,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)">
-                  </a> <!-- VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678) -->
-                  <span class="method-name">VerifyLoginWithValidCreden</span>
-                  <span class="parameters">(mahendramkatkar@gmail.com,Mahendra@678)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="VerifyLoginWithValidCreden(mahendramkatkar1@gmail.com, Mahendra@678)">
                   </a> <!-- VerifyLoginWithValidCreden(mahendramkatkar1@gmail.com, Mahendra@678) -->
                   <span class="method-name">VerifyLoginWithValidCreden</span>
                   <span class="parameters">(mahendramkatkar1@gmail.com,Mahendra@678)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyLoginWithValidEmailAndINValidPassword">
-                  </a> <!-- VerifyLoginWithValidEmailAndINValidPassword -->
-                  <span class="method-name">VerifyLoginWithValidEmailAndINValidPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyLoginwithoutCredentials">
-                  </a> <!-- VerifyLoginwithoutCredentials -->
-                  <span class="method-name">VerifyLoginwithoutCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -367,66 +447,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyRegisteringAnAccountByProvidingAllFields')
+data.setCell(0, 1, 'VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress')
 data.setCell(0, 2, 'Ninja.qa.RegisterTest')
-data.setCell(0, 3, 2053);
+data.setCell(0, 3, 1753);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyRegisteringAnAccountshowsMandatoryFields')
+data.setCell(1, 1, 'VerifyRegisteringAnAccountByProvidingAllFields')
 data.setCell(1, 2, 'Ninja.qa.RegisterTest')
-data.setCell(1, 3, 1937);
+data.setCell(1, 3, 1749);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress')
+data.setCell(2, 1, 'VerifyRegisteringAnAccountshowsMandatoryFields')
 data.setCell(2, 2, 'Ninja.qa.RegisterTest')
-data.setCell(2, 3, 1758);
+data.setCell(2, 3, 1729);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifySearchWithNonValidProject')
-data.setCell(3, 2, 'Ninja.qa.SearchTest')
-data.setCell(3, 3, 1749);
+data.setCell(3, 1, 'VerifyLoginWithValidCreden')
+data.setCell(3, 2, 'Ninja.qa.LoginTest')
+data.setCell(3, 3, 1293);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'VerifyLoginwithoutCredentials')
+data.setCell(4, 1, 'VerifyLoginWithValidCreden')
 data.setCell(4, 2, 'Ninja.qa.LoginTest')
-data.setCell(4, 3, 1585);
+data.setCell(4, 3, 998);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'VerifyLoginWithValidCreden')
 data.setCell(5, 2, 'Ninja.qa.LoginTest')
-data.setCell(5, 3, 1191);
+data.setCell(5, 3, 990);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'VerifyLoginWithValidCreden')
+data.setCell(6, 1, 'VerifyLoginWithINValidCreden')
 data.setCell(6, 2, 'Ninja.qa.LoginTest')
-data.setCell(6, 3, 979);
+data.setCell(6, 3, 863);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'VerifyLoginWithINValidEmailAndValidPassword')
-data.setCell(7, 2, 'Ninja.qa.LoginTest')
-data.setCell(7, 3, 950);
+data.setCell(7, 1, 'VerifySearchWithNonValidProject')
+data.setCell(7, 2, 'Ninja.qa.SearchTest')
+data.setCell(7, 3, 838);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifyLoginWithValidCreden')
-data.setCell(8, 2, 'Ninja.qa.LoginTest')
-data.setCell(8, 3, 938);
+data.setCell(8, 1, 'VerifySearchWithoutAnyProduct')
+data.setCell(8, 2, 'Ninja.qa.SearchTest')
+data.setCell(8, 3, 740);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'VerifySearchValidProduct')
 data.setCell(9, 2, 'Ninja.qa.SearchTest')
-data.setCell(9, 3, 934);
+data.setCell(9, 3, 737);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'VerifyLoginWithValidEmailAndINValidPassword')
-data.setCell(10, 2, 'Ninja.qa.LoginTest')
-data.setCell(10, 3, 879);
+data.setCell(10, 1, 'VerifyloggingintotheApplicatioWithouProvidingAnycredentials')
+data.setCell(10, 2, 'Ninja.qa.RegisterTest')
+data.setCell(10, 3, 658);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'VerifyLoginWithINValidCreden')
+data.setCell(11, 1, 'VerifyLoginwithoutCredentials')
 data.setCell(11, 2, 'Ninja.qa.LoginTest')
-data.setCell(11, 3, 867);
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'VerifySearchWithoutAnyProduct')
-data.setCell(12, 2, 'Ninja.qa.SearchTest')
-data.setCell(12, 3, 713);
+data.setCell(12, 1, 'VerifyLoginWithINValidEmailAndValidPassword')
+data.setCell(12, 2, 'Ninja.qa.LoginTest')
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'VerifyloggingintotheApplicatioWithouProvidingAnycredentials')
-data.setCell(13, 2, 'Ninja.qa.RegisterTest')
-data.setCell(13, 3, 681);
+data.setCell(13, 1, 'VerifyLoginWithValidEmailAndINValidPassword')
+data.setCell(13, 2, 'Ninja.qa.LoginTest')
+data.setCell(13, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -459,173 +539,163 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyRegisteringAnAccountshowsMandatoryFields</span>
-                <span class="method-start">15388 ms</span>
+                <span class="method-start">11503 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17329 ms</span>
+                <span class="method-start">13240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17702 ms</span>
+                <span class="method-start">13676 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyRegisteringAnAccountByProvidingAllFields</span>
-                <span class="method-start">23219 ms</span>
+                <span class="method-start">18524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25278 ms</span>
+                <span class="method-start">20276 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">25587 ms</span>
+                <span class="method-start">20609 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress</span>
-                <span class="method-start">30850 ms</span>
+                <span class="method-start">26148 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32612 ms</span>
+                <span class="method-start">27905 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32862 ms</span>
+                <span class="method-start">28199 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyloggingintotheApplicatioWithouProvidingAnycredentials</span>
-                <span class="method-start">38420 ms</span>
+                <span class="method-start">32205 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39107 ms</span>
+                <span class="method-start">32865 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Ninja.qa.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">40288 ms</span>
+                <span class="method-start">33941 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginWithValidCreden(mahendramkatkar@gmail.com, Mahendra@678)</span>
-                <span class="method-start">45881 ms</span>
+                <span class="method-start">38471 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">46862 ms</span>
+                <span class="method-start">39464 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">47107 ms</span>
+                <span class="method-start">39723 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginWithValidCreden(mahendramkatkar1@gmail.com, Mahendra@678)</span>
-                <span class="method-start">51575 ms</span>
+                <span class="method-start">44608 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">52516 ms</span>
+                <span class="method-start">45608 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">52777 ms</span>
+                <span class="method-start">45858 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginWithValidCreden(mahendramkatkar2@gmail.com, Mahendra@679)</span>
-                <span class="method-start">56824 ms</span>
+                <span class="method-start">51638 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">58023 ms</span>
+                <span class="method-start">52941 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">58282 ms</span>
+                <span class="method-start">53265 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginWithINValidCreden</span>
-                <span class="method-start">62764 ms</span>
+                <span class="method-start">61154 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">63633 ms</span>
+                <span class="method-start">62019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">62325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseMethod</span>
+                <span class="method-start">74513 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">63901 ms</span>
+                <span class="method-start">74520 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyLoginWithINValidEmailAndValidPassword</span>
-                <span class="method-start">67935 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">68887 ms</span>
+                <span class="method-start">74542 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">69129 ms</span>
+                <span class="method-start">74548 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyLoginWithValidEmailAndINValidPassword</span>
-                <span class="method-start">73437 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">74320 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">74587 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyLoginwithoutCredentials</span>
-                <span class="method-start">79317 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">BrowserCloseMethod</span>
-                <span class="method-start">80906 ms</span>
+                <span class="method-start">74561 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Ninja.qa.SearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">82005 ms</span>
+                <span class="method-start">74576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySearchValidProduct</span>
-                <span class="method-start">88125 ms</span>
+                <span class="method-start">84227 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">89060 ms</span>
+                <span class="method-start">84981 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">89313 ms</span>
+                <span class="method-start">85296 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySearchWithNonValidProject</span>
-                <span class="method-start">94505 ms</span>
+                <span class="method-start">92663 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96257 ms</span>
+                <span class="method-start">93502 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">96616 ms</span>
+                <span class="method-start">93787 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySearchWithoutAnyProduct</span>
-                <span class="method-start">102466 ms</span>
+                <span class="method-start">103699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">103182 ms</span>
+                <span class="method-start">104446 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
