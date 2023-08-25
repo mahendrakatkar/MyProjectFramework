@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="11" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-20T14:47:47 IST" name="Suite" finished-at="2023-08-20T14:49:09 IST" duration-ms="82263">
+    <groups>
+    </groups>
+    <test started-at="2023-08-20T14:47:47 IST" name="Test" finished-at="2023-08-20T14:49:09 IST" duration-ms="82263">
+      <class name="Ninja.qa.SearchTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:48:55 IST" name="SetUp" finished-at="2023-08-20T14:48:58 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchValidProduct()[pri:1, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:48:58 IST" name="VerifySearchValidProduct" finished-at="2023-08-20T14:48:59 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:48:59 IST" name="tearDown" finished-at="2023-08-20T14:48:59 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:48:59 IST" name="SetUp" finished-at="2023-08-20T14:49:05 IST" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchWithNonValidProject()[pri:2, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:49:05 IST" name="VerifySearchWithNonValidProject" finished-at="2023-08-20T14:49:05 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithNonValidProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:49:05 IST" name="tearDown" finished-at="2023-08-20T14:49:05 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:49:05 IST" name="SetUp" finished-at="2023-08-20T14:49:09 IST" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchWithoutAnyProduct()[pri:3, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:49:09 IST" name="VerifySearchWithoutAnyProduct" finished-at="2023-08-20T14:49:09 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6e6f2380]" started-at="2023-08-20T14:49:09 IST" name="tearDown" finished-at="2023-08-20T14:49:09 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ninja.qa.SearchTest -->
+      <class name="Ninja.qa.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:47:47 IST" name="setup" finished-at="2023-08-20T14:48:01 IST" duration-ms="13207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountshowsMandatoryFields()[pri:1, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:01 IST" name="VerifyRegisteringAnAccountshowsMandatoryFields" finished-at="2023-08-20T14:48:03 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountshowsMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:03 IST" name="tearDown" finished-at="2023-08-20T14:48:03 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:03 IST" name="setup" finished-at="2023-08-20T14:48:10 IST" duration-ms="6372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountByProvidingAllFields()[pri:2, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:10 IST" name="VerifyRegisteringAnAccountByProvidingAllFields" finished-at="2023-08-20T14:48:12 IST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:12 IST" name="tearDown" finished-at="2023-08-20T14:48:13 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:13 IST" name="setup" finished-at="2023-08-20T14:48:18 IST" duration-ms="4859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress()[pri:3, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:18 IST" name="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress" finished-at="2023-08-20T14:48:19 IST" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:19 IST" name="tearDown" finished-at="2023-08-20T14:48:20 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:20 IST" name="setup" finished-at="2023-08-20T14:48:28 IST" duration-ms="7793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyloggingintotheApplicatioWithouProvidingAnycredentials()[pri:4, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:28 IST" name="VerifyloggingintotheApplicatioWithouProvidingAnycredentials" finished-at="2023-08-20T14:48:28 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloggingintotheApplicatioWithouProvidingAnycredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@4d5650ae]" started-at="2023-08-20T14:48:28 IST" name="tearDown" finished-at="2023-08-20T14:48:29 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ninja.qa.RegisterTest -->
+      <class name="Ninja.qa.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:29 IST" name="setup" finished-at="2023-08-20T14:48:35 IST" duration-ms="5785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:35 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T14:48:36 IST" duration-ms="1287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:36 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:37 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:37 IST" name="setup" finished-at="2023-08-20T14:48:41 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:41 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T14:48:42 IST" duration-ms="923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:42 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:42 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:42 IST" name="setup" finished-at="2023-08-20T14:48:46 IST" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:46 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T14:48:47 IST" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@679]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:47 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:47 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:47 IST" name="setup" finished-at="2023-08-20T14:48:52 IST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithINValidCreden()[pri:2, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:52 IST" name="VerifyLoginWithINValidCreden" finished-at="2023-08-20T14:48:53 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithINValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:53 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:53 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:53 IST" name="setup" finished-at="2023-08-20T14:48:55 IST" duration-ms="2349" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:54)
+at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithINValidEmailAndValidPassword()[pri:3, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="VerifyLoginWithINValidEmailAndValidPassword" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:54)
+at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithINValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method signature="VerifyLoginWithValidEmailAndINValidPassword()[pri:4, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="VerifyLoginWithValidEmailAndINValidPassword" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:54)
+at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidEmailAndINValidPassword -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="setup" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="setup" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginwithoutCredentials()[pri:5, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="VerifyLoginwithoutCredentials" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.96) 
+Host info: host: 'DESKTOP-KMS877P', ip: '192.168.125.104'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files (x86)\Goog..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at Ninja_BaseClass.Base.InitializeBrowserAndOpenApplication(Base.java:54)
+at Ninja.qa.LoginTest.setup(LoginTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginwithoutCredentials -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@6892b3b6]" started-at="2023-08-20T14:48:55 IST" name="BrowserCloseMethod" finished-at="2023-08-20T14:48:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+      </class> <!-- Ninja.qa.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

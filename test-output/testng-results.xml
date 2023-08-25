@@ -1,62 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T21:06:12 IST" name="Default suite" finished-at="2023-08-06T21:06:12 IST" duration-ms="94">
+  <suite started-at="2023-08-20T15:51:59 IST" name="Suite" finished-at="2023-08-20T15:53:44 IST" duration-ms="105001">
     <groups>
     </groups>
-    <test started-at="2023-08-06T21:06:12 IST" name="Default test" finished-at="2023-08-06T21:06:12 IST" duration-ms="94">
-      <class name="Ninja.qa.Login">
-        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.Login@d86a6f]" started-at="2023-08-06T21:06:12 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-06T21:06:12 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-at java.base/java.io.File.<init>(File.java:278)
-at NinjaTutorialQAUtiles.Utilities.getTetstDataFromExcel(Utilities.java:29)
-at Ninja.qa.Login.supplyTestData(Login.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+    <test started-at="2023-08-20T15:51:59 IST" name="Test" finished-at="2023-08-20T15:53:44 IST" duration-ms="105001">
+      <class name="Ninja.qa.SearchTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:22 IST" name="SetUp" finished-at="2023-08-20T15:53:28 IST" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchValidProduct()[pri:1, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:28 IST" name="VerifySearchValidProduct" finished-at="2023-08-20T15:53:29 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:29 IST" name="tearDown" finished-at="2023-08-20T15:53:30 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:30 IST" name="SetUp" finished-at="2023-08-20T15:53:35 IST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchWithNonValidProject()[pri:2, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:35 IST" name="VerifySearchWithNonValidProject" finished-at="2023-08-20T15:53:37 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithNonValidProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:37 IST" name="tearDown" finished-at="2023-08-20T15:53:37 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:37 IST" name="SetUp" finished-at="2023-08-20T15:53:43 IST" duration-ms="5850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifySearchWithoutAnyProduct()[pri:3, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:43 IST" name="VerifySearchWithoutAnyProduct" finished-at="2023-08-20T15:53:44 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.SearchTest@6caf0677]" started-at="2023-08-20T15:53:44 IST" name="tearDown" finished-at="2023-08-20T15:53:44 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ninja.qa.SearchTest -->
+      <class name="Ninja.qa.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:00 IST" name="setup" finished-at="2023-08-20T15:52:16 IST" duration-ms="15382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountshowsMandatoryFields()[pri:1, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:16 IST" name="VerifyRegisteringAnAccountshowsMandatoryFields" finished-at="2023-08-20T15:52:18 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountshowsMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:18 IST" name="tearDown" finished-at="2023-08-20T15:52:18 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:18 IST" name="setup" finished-at="2023-08-20T15:52:24 IST" duration-ms="5516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountByProvidingAllFields()[pri:2, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:24 IST" name="VerifyRegisteringAnAccountByProvidingAllFields" finished-at="2023-08-20T15:52:26 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:26 IST" name="tearDown" finished-at="2023-08-20T15:52:26 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:26 IST" name="setup" finished-at="2023-08-20T15:52:31 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress()[pri:3, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:31 IST" name="VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress" finished-at="2023-08-20T15:52:33 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAnAccountByProvidingAllFieldswithExistingEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:33 IST" name="tearDown" finished-at="2023-08-20T15:52:33 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:33 IST" name="setup" finished-at="2023-08-20T15:52:39 IST" duration-ms="5557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyloggingintotheApplicatioWithouProvidingAnycredentials()[pri:4, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:39 IST" name="VerifyloggingintotheApplicatioWithouProvidingAnycredentials" finished-at="2023-08-20T15:52:39 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloggingintotheApplicatioWithouProvidingAnycredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ninja.qa.RegisterTest@5d0bf09b]" started-at="2023-08-20T15:52:39 IST" name="tearDown" finished-at="2023-08-20T15:52:40 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ninja.qa.RegisterTest -->
+      <class name="Ninja.qa.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:41 IST" name="setup" finished-at="2023-08-20T15:52:46 IST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:46 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T15:52:47 IST" duration-ms="979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@678]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginWithValidCreden -->
-      </class> <!-- Ninja.qa.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:47 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:52:47 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:47 IST" name="setup" finished-at="2023-08-20T15:52:52 IST" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:52 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T15:52:53 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:53 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:52:53 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:53 IST" name="setup" finished-at="2023-08-20T15:52:57 IST" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidCreden(java.lang.String,java.lang.String)[pri:1, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:57 IST" name="VerifyLoginWithValidCreden" data-provider="validCredentialsSupplier" finished-at="2023-08-20T15:52:58 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahendramkatkar2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahendra@679]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:58 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:52:59 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:52:59 IST" name="setup" finished-at="2023-08-20T15:53:03 IST" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithINValidCreden()[pri:2, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:03 IST" name="VerifyLoginWithINValidCreden" finished-at="2023-08-20T15:53:04 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithINValidCreden -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:04 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:53:04 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:04 IST" name="setup" finished-at="2023-08-20T15:53:08 IST" duration-ms="4033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithINValidEmailAndValidPassword()[pri:3, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:08 IST" name="VerifyLoginWithINValidEmailAndValidPassword" finished-at="2023-08-20T15:53:09 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithINValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:09 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:53:09 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:09 IST" name="setup" finished-at="2023-08-20T15:53:14 IST" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidEmailAndINValidPassword()[pri:4, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:14 IST" name="VerifyLoginWithValidEmailAndINValidPassword" finished-at="2023-08-20T15:53:15 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidEmailAndINValidPassword -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:15 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:53:15 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:15 IST" name="setup" finished-at="2023-08-20T15:53:20 IST" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginwithoutCredentials()[pri:5, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:20 IST" name="VerifyLoginwithoutCredentials" finished-at="2023-08-20T15:53:21 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginwithoutCredentials -->
+        <test-method is-config="true" signature="BrowserCloseMethod()[pri:0, instance:Ninja.qa.LoginTest@645aa696]" started-at="2023-08-20T15:53:21 IST" name="BrowserCloseMethod" finished-at="2023-08-20T15:53:22 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCloseMethod -->
+      </class> <!-- Ninja.qa.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
