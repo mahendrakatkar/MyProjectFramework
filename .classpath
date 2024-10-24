@@ -38,15 +38,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/House Of Computer/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/House%20Of%20Computer/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16-javadoc.jar!/"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi-ooxml"/>
-			<attribute name="maven.version" value="3.16"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
