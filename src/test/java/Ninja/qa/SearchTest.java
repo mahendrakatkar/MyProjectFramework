@@ -27,7 +27,7 @@ public class SearchTest extends Base {
 	}
 
 	@BeforeMethod
-	public void SetUp() {    //tes
+	public void SetUp() {
 
 		driver = InitializeBrowserAndOpenApplication(prop.getProperty("browserName"));
 		 homepage = new homePages(driver);
