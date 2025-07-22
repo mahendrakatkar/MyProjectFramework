@@ -19,8 +19,8 @@ import org.testng.reporters.jq.Main;
 
 public class Utilities {
 
-	public static final int Implicit_Wait_Time = 15;
-	public static final int PageLoad_Time = 10;
+	public static final int Implicit_Wait_Time = 30;
+	public static final int PageLoad_Time = 30;
 
 	
 	public static String generateEmailAdreeTimeStamp() {
