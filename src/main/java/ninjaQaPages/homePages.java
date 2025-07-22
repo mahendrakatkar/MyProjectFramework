@@ -9,6 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 public class homePages {
 	WebDriver driver;
 
+	public homePages(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);  //driver: 	The active WebDriver instance used to find the elements on the page
+	}											//this: Refers to the current class 
+												//init: A static method that does the actual initialization.
+												//A Selenium class that supports the Page Object Model by initializing @FindBy elements.
 	// objects
 	@FindBy(xpath = "//span[text()='My Account']")
 	private WebElement myAccountDropMenu;
@@ -25,12 +31,7 @@ public class homePages {
 	
 	@FindBy(name = "search")
 	private WebElement searchBoxField;
-	public homePages(WebDriver driver) {
-		this.driver = driver;
-
-		PageFactory.initElements(driver, this);
-	}
-
+	
 	// actions
 	public void clickOnMyAccount() {
 		myAccountDropMenu.click();
@@ -38,8 +39,8 @@ public class homePages {
 	}
 	public RegisterPage selectRegisterOption() {
 		RegisterOption.click();
-		return new RegisterPage(driver);
-	} 
+		return new RegisterPage(driver);			//	Creates a new instance of the RegisterPage class, passing driver as a parameter to its constructor.
+	} 		
 	
 	public RegisterPage navigateToRegisterPage() {
 		myAccountDropMenu.click();
@@ -69,6 +70,6 @@ public class homePages {
 	public SearchPage serchForProduct(String productText) {
 		searchBoxField.sendKeys(productText);
 		searchButton.click();
-		return new SearchPage(driver);
+		return new SearchPage(driver);		
 	}
 }

@@ -1,24 +1,31 @@
 package Ninja.qa;
 
+import org.apache.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import NinjaTutorialQAUtiles.Utilities;
 import Ninja_BaseClass.Base;
+import freemarker.log.Logger;
+import log4jDemo.Log4JClass;
 import ninjaQaPages.AccountPage;
 import ninjaQaPages.LoginPage;
 import ninjaQaPages.homePages;
 
+@Listeners
 public class LoginTest extends Base {
+
+	private static org.apache.log4j.Logger logger =LogManager.getLogger(Log4JClass.class);
 
 	LoginPage loginPage;
 
 	public LoginTest() {
-		super();
+		super();	//	This calls the constructor of the parent (super) class Base()
 	}
 
 	public WebDriver driver;
@@ -44,7 +51,8 @@ public class LoginTest extends Base {
 		AccountPage AccountPage = loginPage.login(email, password);
 
 		Assert.assertTrue(AccountPage.getDisplayStatusofEdityourAccountInformationOption(),
-				"edit your account information is not dispayed");
+				"edit your account information is not dispayedaa");
+		logger.info("VerifyLoginWithValidCreden");
 		// driver.quit(); added at top to avoid browser remains open for failed TC
 	}
 
@@ -55,7 +63,7 @@ public class LoginTest extends Base {
 
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2)  // groups="functional"
 	public void VerifyLoginWithINValidCreden() {
 
 		loginPage.login(Utilities.generateEmailAdreeTimeStamp(), dataProp.getProperty("invalidPassword"));
@@ -71,7 +79,6 @@ public class LoginTest extends Base {
 				"expected warning message is not matching");
 		// driver.quit();
 	}
-
 	@Test(priority = 3)
 	public void VerifyLoginWithINValidEmailAndValidPassword() {
 

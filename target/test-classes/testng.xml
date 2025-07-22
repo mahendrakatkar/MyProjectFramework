@@ -4,7 +4,7 @@
   <listeners>
 	  <listener class-name="ninja.listeners.myListeners"/> 
   </listeners>
-  <test thread-count="1" name="Test">
+  <test thread-count="3" parallel="classes" name="Test">
     <classes>
       <class name="Ninja.qa.RegisterTest"/>
       <class name="Ninja.qa.LoginTest"/>

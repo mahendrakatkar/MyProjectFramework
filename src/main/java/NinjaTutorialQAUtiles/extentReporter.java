@@ -11,15 +11,17 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class extentReporter {
 public static ExtentReports generateExtendRepot() {
 	
-	ExtentReports extentReport = new ExtentReports();
+	
 	
 	File extentReportFile= new File(System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentReport.html");
-	ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
+	ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);    // ExtentSparkReporter for report details like name, theme, time etc
 	sparkReporter.config().setTheme(Theme.DARK);
 	sparkReporter.config().setReportName("Tuto Ninja test automation result");
 	sparkReporter.config().setDocumentTitle("NINJA REPORT");
 	sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 	
+	
+	ExtentReports extentReport = new ExtentReports();		//ExtentReports for property details like url, browser, email etc
 	extentReport.attachReporter(sparkReporter);
 	
 	Properties configProp = new Properties();
@@ -35,8 +37,8 @@ public static ExtentReports generateExtendRepot() {
 	extentReport.setSystemInfo("Browser Name", configProp.getProperty("browserName"));
 	extentReport.setSystemInfo("Email", configProp.getProperty("validEmail"));
 	extentReport.setSystemInfo("Password", configProp.getProperty("validPassword"));
-	extentReport.setSystemInfo("Password", configProp.getProperty("validPassword"));
-	extentReport.setSystemInfo("operaing system", System.getProperty("os.name"));
+	//extentReport.setSystemInfo("Password", configProp.getProperty("validPassword"));
+	extentReport.setSystemInfo("operaing system", System.getProperty("os.name"));		// system property
 	extentReport.setSystemInfo("User Name", System.getProperty("user.name"));
 	extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));
 

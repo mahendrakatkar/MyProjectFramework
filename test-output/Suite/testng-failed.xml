@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ninja.listeners.myListeners"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="Ninja.qa.RegisterTest">
+      <class name="Ninja.qa.LoginTest">
         <methods>
+          <include name="VerifyLoginwithoutCredentials"/>
           <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyloggingintotheApplicatioWithouProvidingAnycredentials"/>
+          <include name="BrowserCloseMethod"/>
+          <include name="VerifyLoginWithValidEmailAndINValidPassword"/>
         </methods>
-      </class> <!-- Ninja.qa.RegisterTest -->
+      </class> <!-- Ninja.qa.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -7,7 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	WebDriver driver;
-
+	
+	public LoginPage(WebDriver driver) {
+		this.driver=driver;
+			PageFactory.initElements(driver, this);
+	}
+	
 	@FindBy(id = "input-email")
 	WebElement emailAddressField;
 	
@@ -20,10 +25,6 @@ public class LoginPage {
 	@FindBy(xpath ="//div[contains(@class,'alert-dismissible')]")
 	WebElement emailPasswordNotMatchWarning;
 	
-	public LoginPage(WebDriver driver) {
-		this.driver=driver;
-				PageFactory.initElements(driver, this);
-	}
 	
 	public void enterEmailAddress(String emailText) {
 		emailAddressField.sendKeys(emailText);
@@ -32,6 +33,8 @@ public class LoginPage {
 	public void enterPassword(String passwordText) {
 		passwordField.sendKeys(passwordText);
 	}
+	
+	
 	public AccountPage clickOnLoginButton() {
 		loginButton.click();
 		return new AccountPage(driver);
